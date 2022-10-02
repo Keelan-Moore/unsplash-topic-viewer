@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to set up
+Create a .env and place your unsplash access token as `REACT_APP_API_KEY`.
+
+Use keyboard to navigate as Smart TV. Arrow keys to navigate menus, `Enter` to select and `Backspace` to re-open the menu. You can click on objects to force focus and select menu items to aid in combatibility with LG tvs "magic remote"
+
+## Todo (Not yet completed)
+- More robust input method. This is a little hacky and buggy. Some smart tv locational navigation would be helpful
+- Infinite images for each topic. Only 10 images are selected for the each topic, the call needs to be paginated upon reaching the end of the list. This is easily done using `react-query`.
+
 ## Available Scripts
 
 In the project directory, you can run:
